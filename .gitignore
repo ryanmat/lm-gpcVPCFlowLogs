@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Environment and secrets
+.env
+*.env
+!variables.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# uv
+uv.lock
+
+# Claude / AI
+.claude/
+CLAUDE.md
+docs/plan.md
+docs/todo.md
+docs/project_spec.md
+docs/python.md
+docs/go.md
+docs/source-control.md
+docs/using-uv.md
+docs/docker-uv.md
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
